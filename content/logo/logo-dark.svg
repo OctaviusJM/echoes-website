@@ -2,59 +2,44 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1764.2725"
-   height="659.62006"
-   viewBox="0 0 466.79707 174.52447"
+   width="1764.2715"
+   height="659.62091"
+   viewBox="0 0 466.79681 174.5247"
    version="1.1"
    id="svg1"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs1">
-    <rect
-       x="162"
-       y="246"
-       width="369"
-       height="116.5"
-       id="rect3" />
-  </defs>
+     id="defs1" />
   <g
-     id="layer1"
-     transform="translate(-39.166578,-31.383609)">
-    <text
-       xml:space="preserve"
-       transform="matrix(1.1218173,0,0,1.2402528,-109.301,-242.9099)"
-       id="text3"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);fill:#ffffff;fill-opacity:1"><tspan
-         x="162"
-         y="332.03135"
-         id="tspan2"><tspan
-           style="fill:#1a1a1a"
-           id="tspan1">ECHOES</tspan></tspan></text>
-  </g>
-  <g
-     id="layer2"
-     transform="translate(-39.166578,-31.383609)">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:99.8538px;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:1.04014"
-       x="474.30988"
-       y="182.44257"
-       id="text4"><tspan
-         id="tspan4"
-         style="fill:#1a1a1a;stroke-width:1.04014"
-         x="474.30988"
-         y="182.44257">)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:99.8538px;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#1a1a1a;fill-opacity:1;stroke-width:1.04014"
-       x="-70.820366"
-       y="105.77458"
-       id="text4-8"
-       transform="scale(-1,1)"><tspan
-         id="tspan4-2"
-         style="fill:#1a1a1a;stroke-width:1.04014"
-         x="-70.820366"
-         y="105.77458">)</tspan></text>
+     id="g4"
+     style="fill:#1a1a1a"
+     transform="translate(-1.3367461e-4,1.0349274e-4)">
+    <g
+       id="layer1"
+       transform="translate(-39.166578,-31.383609)"
+       style="fill:#1a1a1a">
+      <path
+         d="m 169.68,332.03135 v -67.2 h 41.376 v 7.296 h -33.312 v 22.464 h 30.624 v 7.296 h -30.624 v 22.848 h 33.792 v 7.296 z m 78.33597,1.344 q -12,0 -19.104,-6.912 -7.104,-7.008 -7.104,-20.352 v -15.36 q 0,-13.344 7.104,-20.256 7.104,-7.008 19.104,-7.008 11.904,0 18.24,6.624 6.432,6.624 6.432,18.144 v 0.48 h -7.968 v -0.768 q 0,-7.584 -4.128,-12.384 -4.032,-4.896 -12.576,-4.896 -8.544,0 -13.344,5.28 -4.8,5.184 -4.8,14.592 v 15.744 q 0,9.408 4.8,14.688 4.8,5.184 13.344,5.184 8.544,0 12.576,-4.8 4.128,-4.896 4.128,-12.48 v -1.536 h 7.968 v 1.248 q 0,11.52 -6.432,18.144 -6.336,6.624 -18.24,6.624 z m 37.34402,-1.344 v -67.2 h 8.064 v 29.856 h 31.488 v -29.856 h 8.064 v 67.2 h -8.064 v -30.048 h -31.488 v 30.048 z m 87.36002,1.344 q -12,0 -19.2,-6.912 -7.104,-7.008 -7.104,-20.352 v -15.36 q 0,-13.344 7.104,-20.256 7.2,-7.008 19.2,-7.008 12.096,0 19.2,7.008 7.2,6.912 7.2,20.256 v 15.36 q 0,13.344 -7.2,20.352 -7.104,6.912 -19.2,6.912 z m 0,-7.2 q 8.736,0 13.536,-5.184 4.8,-5.28 4.8,-14.592 v -15.936 q 0,-9.312 -4.8,-14.496 -4.8,-5.28 -13.536,-5.28 -8.64,0 -13.44,5.28 -4.8,5.184 -4.8,14.496 v 15.936 q 0,9.312 4.8,14.592 4.8,5.184 13.44,5.184 z m 39.84006,5.856 v -67.2 h 41.376 v 7.296 h -33.312 v 22.464 h 30.624 v 7.296 h -30.624 v 22.848 h 33.792 v 7.296 z m 76.41597,1.344 q -7.296,0 -13.056,-2.592 -5.76,-2.592 -9.12,-7.776 -3.264,-5.28 -3.264,-13.152 v -2.016 h 7.968 v 2.016 q 0,8.352 4.896,12.48 4.896,4.032 12.576,4.032 7.872,0 12,-3.552 4.128,-3.552 4.128,-8.928 0,-3.744 -1.92,-5.952 -1.824,-2.208 -5.184,-3.552 -3.36,-1.44 -7.872,-2.496 l -4.992,-1.248 q -5.856,-1.536 -10.368,-3.744 -4.512,-2.208 -7.104,-5.76 -2.496,-3.648 -2.496,-9.312 0,-5.664 2.784,-9.792 2.88,-4.128 7.968,-6.336 5.184,-2.208 11.904,-2.208 6.816,0 12.192,2.4 5.472,2.304 8.544,6.912 3.168,4.512 3.168,11.424 v 4.032 h -7.968 v -4.032 q 0,-4.896 -2.112,-7.872 -2.016,-2.976 -5.664,-4.416 -3.552,-1.44 -8.16,-1.44 -6.624,0 -10.656,2.976 -4.032,2.88 -4.032,8.256 0,3.552 1.728,5.76 1.728,2.208 4.896,3.648 3.168,1.344 7.584,2.4 l 4.992,1.248 q 5.856,1.248 10.464,3.456 4.704,2.112 7.488,5.856 2.784,3.648 2.784,9.6 0,5.952 -2.976,10.368 -2.976,4.416 -8.448,6.912 -5.376,2.4 -12.672,2.4 z"
+         id="text3"
+         style="font-size:96px;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk';white-space:pre;fill:#1a1a1a"
+         transform="matrix(1.1218173,0,0,1.2402528,-109.301,-242.9099)"
+         aria-label="ECHOES" />
+    </g>
+    <g
+       id="layer3"
+       style="fill:#1a1a1a">
+      <path
+         d="m -30.954811,97.856618 v -6.889912 q 12.08231,-0.09985 17.674122,-6.59035 5.5918129,-6.490497 5.5918129,-19.771052 V 33.251211 q 0,-13.380409 -5.5918129,-19.771052 -5.591812,-6.4904966 -17.674122,-6.5903504 V -1.0349274e-4 q 9.685818,0 16.57573,3.39502909274 6.8899125,3.3950292 10.584503,10.5845024 3.79444432538,7.189474 3.79444432538,18.772514 v 32.352631 q 0,11.483187 -3.79444432538,18.67266 -3.6945905,7.289327 -10.584503,10.684356 -6.889912,3.395029 -16.57573,3.395029 z"
+         id="text4-8"
+         style="font-size:99.8538px;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk';fill:#1a1a1a;stroke-width:1.04014"
+         transform="scale(-1,1)"
+         aria-label=")" />
+      <path
+         d="m 435.84229,174.5246 v -6.88991 q 12.08231,-0.0999 17.67412,-6.59035 5.59181,-6.4905 5.59181,-19.77105 V 109.9192 q 0,-13.380414 -5.59181,-19.771057 -5.59181,-6.490497 -17.67412,-6.59035 v -6.889912 q 9.68582,0 16.57573,3.395029 6.88991,3.395029 10.5845,10.584502 3.79444,7.189474 3.79444,18.772518 v 32.35263 q 0,11.48318 -3.79444,18.67266 -3.69459,7.28932 -10.5845,10.68435 -6.88991,3.39503 -16.57573,3.39503 z"
+         id="text4"
+         style="font-size:99.8538px;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk';fill:#1a1a1a;stroke-width:1.04014"
+         aria-label=")" />
+    </g>
   </g>
 </svg>
