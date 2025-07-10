@@ -118,7 +118,7 @@ main {
 }
 
 .small-logo img {
-    max-width: 384px;
+    max-width: 512px;
     height: auto;
     width: 100%;
     opacity: 1.0;
