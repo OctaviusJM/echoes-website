@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="2048"
-   height="1023.9999"
-   viewBox="0 0 541.86665 270.93333"
+   width="1764.2725"
+   height="659.62006"
+   viewBox="0 0 466.79707 174.52447"
    version="1.1"
    id="svg1"
    xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +19,8 @@
        id="rect3" />
   </defs>
   <g
-     id="layer1">
+     id="layer1"
+     transform="translate(-39.166578,-31.383609)">
     <text
        xml:space="preserve"
        transform="matrix(1.1218173,0,0,1.2402528,-109.301,-242.9099)"
@@ -32,7 +33,8 @@
            id="tspan1">ECHOES</tspan></tspan></text>
   </g>
   <g
-     id="layer2">
+     id="layer2"
+     transform="translate(-39.166578,-31.383609)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:99.8538px;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:1.04014"
