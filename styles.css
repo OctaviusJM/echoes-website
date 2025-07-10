@@ -104,21 +104,19 @@ main {
 @keyframes pulse-scale {
     from {
         opacity: 0.1;
-        transform: scale(0.98);
         filter: blur(0.05px);
         filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5));
     }
 
     to {
         opacity: 1.0;
-        transform: scale(1.0);
         filter: blur(0);
         filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
     }
 }
 
 .small-logo img {
-    max-width: 512px;
+    max-width: 384px;
     height: auto;
     width: 100%;
     opacity: 1.0;
@@ -137,12 +135,13 @@ main {
     height: auto;
     opacity: 0.3;
     transform: scaleX(0.5);
+    filter: invert(0);
 }
 
 #chapter-nav {
     text-align: center;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
 }
 
 #chapter-nav a {
