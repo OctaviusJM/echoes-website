@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Echoes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net/npm/marked/marked.min.js; style-src 'self' 'unsafe-inline'; img-src 'self' data:;" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="intro" class="intro-overlay">
+        <img src="content/logo/logo2048px.png" alt="Logo" class="logo">
+    </div>
+    <div id="small-logo" class="small-logo">
+        <img src="content/logo/logo_small.png" alt="Logo">
+    </div>
+
+    <div id="split1" class="split1">
+        <img src="content/ui/split.png" alt="Split" class="split">
+    </div>
+    <nav id="chapter-nav"></nav>
+    <div id="split2" class="split2">
+        <img src="content/ui/split.png" alt="Split" class="split">
+    </div>
+
+    <main id="content" class="prose max-w-none p-8"></main>
+
+
+    <footer>
+        © 2025 Oktawiusz Jerzy Majewski. All rights reserved.
+        &nbsp;|&nbsp;
+        <a href="https://www.paypal.com/ncp/payment/WF3UQ6YMHPMWC" target="_blank" rel="noopener">Support —
+            Donate</a>
+    </footer>
+
+    <script>
+        // Automatic line breaks
+        marked.setOptions({
+            breaks: true
+        });
+
+        // Chapters
+        const chapters = [
+            { title: "I — Prelude", file: "Echoes - Prelude.md" },
+            // Future chapters here
+
+        ];
+
+        const nav = document.getElementById('chapter-nav');
+        const content = document.getElementById('content');
+
+        // Create links for each chapter
+        chapters.forEach(chapter => {
+            const link = document.createElement('a');
+            link.href = "#";
+            link.textContent = chapter.title;
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                fetch(`content/chapters/${chapter.file}`, { cache: 'no-cache' })
+                    .then(res => res.text())
+                    .then(md => {
+                        content.innerHTML = marked.parse(md);
+                        content.scrollIntoView({ behavior: 'smooth' });
+                        content.classList.remove('fade-in');
+                        void content.offsetWidth;
+                        content.classList.add('fade-in');
+                    });
+            });
+            nav.appendChild(link);
+        });
+
+        // Load initial chapter
+        fetch(`content/chapters/${chapters[0].file}`, { cache: 'no-cache' })
+            .then(res => res.text())
+            .then(md => {
+                content.innerHTML = marked.parse(md);
+            });
+
+        // Intro fade
+        window.addEventListener('load', function () {
+            document.querySelector('.logo').classList.add('show');
+        });
+
+        document.getElementById('intro').addEventListener('click', function () {
+            this.classList.add('fade-out');
+            document.getElementById('content').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+
+</body>
+
+</html>
