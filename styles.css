@@ -67,7 +67,8 @@ main {
 }
 
 .logo {
-    max-width: 1024px;
+    max-width: 90vw;
+    width: 100%;
     height: auto;
     opacity: 0;
     transition:
@@ -75,6 +76,7 @@ main {
         transform 10s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .logo.show {
@@ -88,8 +90,8 @@ main {
 }
 
 .logo img {
-    width: 100%;
-    height: auto;
+    max-height: 80vh;
+    width: auto;
 }
 
 .small-logo {
@@ -126,22 +128,15 @@ main {
     opacity: 1;
 }
 
-#split1 {
-    width: 100%;
-    transform: scaleX(0.3);
-    text-align: center;
+#split1 img,
+#split2 img {
+    display: block;
+    margin: 0 auto;
     margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    max-width: 100%;
+    height: auto;
     opacity: 0.3;
-
-}
-
-#split2 {
-    width: 100%;
-    transform: scaleX(0.3);
-    text-align: center;
-    margin-top: 0.2rem;
-    opacity: 0.3;
+    transform: scaleX(0.5);
 }
 
 #chapter-nav {
@@ -205,4 +200,12 @@ footer a:hover {
 
 html {
     scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
