@@ -20,9 +20,9 @@ Climate: a cog in motion, ever tumbling — clicking onward.
 Northern, Southern hemispheres — compressed.
 Critical shortages — time lost.
 
-The collective spirit of mankind: — fractured
-Hollowed in disbelief — displaced, reduced, lost.
-Great migrations, escalation into conflicts...
+The collective spirit of mankind — fractured.
+Great migrations, escalation into conflicts.
+Hollowed in disbelief — displaced, reduced... lost.
 
 The blame was shifted around in asset liquidity.  
 Those ones who knew — made it profitable.

@@ -52,18 +52,20 @@ main {
     background:
         linear-gradient(to top,
             rgba(255, 255, 255, 1),
-            rgba(167, 194, 220, 0.5)),
-        #222;
+            rgba(167, 194, 220, 0.5)), #222;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 1000;
-    transition: opacity 1s ease;
+    transition: opacity 1s ease,
+        filter 1s ease,
+        pointer-events 1s ease;
 }
 
 .intro-overlay.fade-out {
     opacity: 0;
     pointer-events: none;
+    transition: opacity 1.0s ease;
 }
 
 .logo {
@@ -72,9 +74,11 @@ main {
     height: auto;
     opacity: 0;
     transform: scale(0.1);
+    filter: blur(10px);
     transition:
-        opacity 10.0s cubic-bezier(0.4, 0, 0.2, 1),
-        transform 5.0s cubic-bezier(0.4, 0, 0.2, 1);
+        opacity 5.0s cubic-bezier(0.4, 0, 0.2, 1),
+        transform 3.0s cubic-bezier(0.4, 0, 0.2, 1),
+        filter 3.0s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +86,8 @@ main {
 
 .logo.show {
     opacity: 1;
-    transform: scale(1.0);
+    filter: blur(1px);
+    transform: scale(0.8);
 }
 
 .logo img {
@@ -105,7 +110,7 @@ main {
     }
 
     to {
-        opacity: 1.0;
+        opacity: 0.5;
         filter: blur(0);
         filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
     }
@@ -153,9 +158,9 @@ main {
 }
 
 #content p:hover {
-    background: rgba(0, 0, 0, 0.025);
+    background: rgba(0, 0, 0, 0.035);
     border-radius: 4px;
-    transition: background 1.0s;
+    transition: background 2.0s;
 }
 
 .fade-in {
@@ -165,7 +170,7 @@ main {
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(30px);
     }
 
     to {
