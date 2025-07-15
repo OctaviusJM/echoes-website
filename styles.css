@@ -121,20 +121,20 @@ main {
     height: auto;
     width: 100%;
     opacity: 1.0;
+    margin-bottom: 5rem;
 }
 
 .small-logo img:hover {
     opacity: 1;
 }
 
-#split1 img,
-#split2 img {
+#split img {
     display: block;
     margin: 0 auto;
     margin-top: 1rem;
     max-width: 100%;
     height: auto;
-    opacity: 0.3;
+    opacity: 0.2;
     transform: scaleX(0.5);
     filter: invert(0);
 }
@@ -218,4 +218,58 @@ img {
     .logo {
         max-width: 64vw;
     }
+}
+
+#support-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* Remove any scaling from the container */
+#buy-me-a-coffee {
+    text-align: center;
+    margin: 0;
+    opacity: 1.0;
+    scale: 0.9;
+    transform: none;
+}
+
+/* Force iframe dimensions */
+#buy-me-a-coffee iframe {
+    width: 180px !important;
+    height: 50px !important;
+    transform: none !important;
+}
+
+/* Remove hover scaling on iframe */
+#buy-me-a-coffee iframe:hover {
+    transform: none !important;
+}
+
+.support-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(2px);
+    width: 200px;
+    height: 55px;
+    background-color: #edcb33;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    /* Increase font size */
+    font-weight: bold;
+    text-decoration: none;
+    border: 0px solid #56401c;
+    border-radius: 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.support-button:hover {
+    background-color: #000;
+    color: #fff;
 }
