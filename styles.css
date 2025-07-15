@@ -220,48 +220,28 @@ img {
     }
 }
 
-#support-buttons {
+#buy-me-a-coffee {
+
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-/* Remove any scaling from the container */
-#buy-me-a-coffee {
-    text-align: center;
-    margin: 0;
-    opacity: 1.0;
-    scale: 0.9;
-    transform: none;
-}
-
-/* Force iframe dimensions */
-#buy-me-a-coffee iframe {
-    width: 180px !important;
-    height: 50px !important;
-    transform: none !important;
-}
-
-/* Remove hover scaling on iframe */
-#buy-me-a-coffee iframe:hover {
-    transform: none !important;
+    align-items: center;
+    margin-top: 1rem;
+    scale: 0.8;
+    max-width: auto;
 }
 
 .support-button {
     display: inline-flex;
+    max-width: auto;
     align-items: center;
     justify-content: center;
     transform: translateY(2px);
-    width: 200px;
-    height: 55px;
+    width: 215px;
+    height: 40px;
     background-color: #edcb33;
-    color: #000;
-    font-family: Inter, sans-serif;
+    color: #ffffff;
+    font-family: 'Inter';
     font-size: 16px;
-    /* Increase font size */
     font-weight: bold;
     text-decoration: none;
     border: 0px solid #56401c;
