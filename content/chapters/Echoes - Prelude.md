@@ -140,8 +140,8 @@ Onboard computer initiates deployment of the parachute.
 The computer malfunctions: system scrambled.
 What's left of his composure — stirred again.  
 He frantically presses the button to deploy backup: it springs open, his reaction too hesitant. 
-The pod smashes into the ground. It met its destiny too fast — critically damaged, its descent scarcely slowed.
 
+The pod smashes into the ground. It met its destiny too fast — critically damaged, its descent scarcely slowed.
 — Silence, dust rises.
 Suddenly: hand strikes the door from the inside.
 Second time... — Pause. Third time.
